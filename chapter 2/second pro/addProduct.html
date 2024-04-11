@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+</head>
+
+<body>
+    <button>
+        <a href="home.html">Go to home</a>
+    </button>
+
+
+    <h1>
+        <center>
+            Add Product
+        </center>
+    </h1>
+
+
+    <form action="addProduct.php" method="post">
+        <center>
+            <label for="name">Enter Product name : </label>
+            <input type="text" name="name" id="pro_name" required>
+            <br><br>
+            <label for="price">Enter Product price : </label>
+            <input type="text" name="price" id="pro_price" required>
+            <br><br>
+            <label for="desc">Enter Product desc : </label>
+            <input type="text" name="desc" id="pro_desc" required>
+            <br><br>
+            <input type="submit" name="submit" value="Insert Product">
+        </center>
+    </form>
+</body>
+
+</html>
